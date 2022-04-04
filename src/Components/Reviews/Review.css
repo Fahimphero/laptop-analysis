@@ -1,0 +1,18 @@
+.body {
+    position: relative;
+
+}
+
+.small {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    padding-left: 3px;
+
+}
+
+.button {
+    padding: 0 45px;
+    color: aliceblue;
+    background-color: blueviolet
+}
