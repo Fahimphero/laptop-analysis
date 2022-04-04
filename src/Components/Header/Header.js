@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     return (
@@ -14,17 +15,18 @@ const Header = () => {
                 <Container fluid>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
+                        <Navbar.Brand href="/" ><span className='brandLink'>Gold Tech BD</span> </Navbar.Brand>
                         <Nav
-                            className="mx-auto my-2 my-lg-0"
+                            className="ms-auto my-2 my-lg-0 navLink"
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href='/reviews'>Reviews</Nav.Link>
-                            <Nav.Link href='/dashboard'>Dashboard</Nav.Link>
-                            <Nav.Link href='/blogs'>Blogs</Nav.Link>
-                            <Nav.Link href='/about'>About</Nav.Link>
-
+                            <Link className='navLink' to="/">Home</Link>
+                            <Link className='navLink' to='/reviews'>Reviews</Link>
+                            <Link className='navLink' to='/dashboard'>Dashboard</Link>
+                            <Link className='navLink' to='/blogs'>Blogs</Link>
+                            <Link className='navLink' to='/about'>About</Link>
+                            <hr />
 
                         </Nav>
 

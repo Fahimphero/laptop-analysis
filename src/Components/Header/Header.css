@@ -1,0 +1,20 @@
+.navLink {
+    color: white;
+    font-size: large;
+    margin-right: 26px;
+    padding: 5px 0px;
+
+}
+
+.navLink:hover {
+    color: crimson;
+}
+
+.brandLink {
+    font-size: larger;
+    color: dodgerblue;
+    padding-left: 20px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
