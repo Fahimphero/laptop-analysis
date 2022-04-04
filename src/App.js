@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Reviews from './Components/Reviews/Reviews';
 import Review from './Components/Review/Review';
 import NotFound from './Components/NotFound/NotFound';
+import About from './Components/About/About';
+import DashBoard from './Components/DashBoard/DashBoard';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         {/* <Route path='/' element={<Home></Home>}></Route> */}
         <Route path='/' element={<Reviews></Reviews>}></Route>
         <Route path='/reviews' element={<Review></Review>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+        <Route path='/dashboard' element={<DashBoard></DashBoard>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
