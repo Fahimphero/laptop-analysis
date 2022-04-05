@@ -52,9 +52,9 @@ const Reviews = () => {
                         <Card.Body className='body card-body'>
                             <Card.Title><h4>{reviews[1]?.name}</h4></Card.Title>
                             <Card.Text className='body-text'>
-                                {reviews[1]?.body}
+                                {reviews[0]?.body}
                             </Card.Text>
-                            <small className='small d-flex align-items-center pb-2 '>Rating: <span className='px-3 fontAwesome'> <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon className='half' icon={faStarHalf} /></span>
+                            <small className='small d-flex align-items-center pb-2 '>Rating: <span className='px-3 fontAwesome'> <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon className='half' icon={faStar} /></span>
                                 {reviews[1]?.stars} Star</small>
                         </Card.Body>
 
@@ -64,7 +64,7 @@ const Reviews = () => {
                         <Card.Body className='body card-body'>
                             <Card.Title><h4>{reviews[4]?.name}</h4></Card.Title>
                             <Card.Text className='body-text'>
-                                {reviews[0]?.body}
+                                {reviews[1]?.body}
                             </Card.Text>
                             <small className='small d-flex align-items-center pb-2'>Rating: <span className='px-3 fontAwesome'> <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
                                 {reviews[2]?.stars} Star</small>

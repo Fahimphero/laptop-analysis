@@ -18,3 +18,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+.brandLink:hover {
+    color: crimson;
+}

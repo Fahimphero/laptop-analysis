@@ -10,6 +10,7 @@ import NotFound from './Components/NotFound/NotFound';
 import About from './Components/About/About';
 import DashBoard from './Components/DashBoard/DashBoard';
 import Blogs from './Components/Blogs/Blogs';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
+
+
 
 
     </div>

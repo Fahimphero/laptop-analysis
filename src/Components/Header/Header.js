@@ -11,6 +11,7 @@ const Header = () => {
             <Link to='/dashboard'>Dashboard</Link>
             <Link to='/blogs'>Blogs</Link>
             <Link to='/about'>About</Link> */}
+            <hr style={{ color: 'blue', padding: '5px', margin: '0' }} />
             <Navbar bg="dark" variant="dark" expand="lg" >
                 <Container fluid>
                     <Navbar.Toggle aria-controls="navbarScroll" />
@@ -31,10 +32,11 @@ const Header = () => {
                         </Nav>
 
                     </Navbar.Collapse>
+
                 </Container>
 
             </Navbar>
-
+            <hr style={{ color: 'blue', padding: '5px', margin: '0' }} />
         </div >
     );
 };
