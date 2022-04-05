@@ -34,9 +34,9 @@ const Reviews = () => {
                 <CardGroup className='mx-4'>
                     <Card className='mx-1 border-0'>
                         <Card.Img variant="top" src={reviews[5]?.picture} />
-                        <Card.Body className='body'>
-                            <Card.Title>{reviews[5]?.name}</Card.Title>
-                            <Card.Text>
+                        <Card.Body className='body card-body'>
+                            <Card.Title><h4>{reviews[5]?.name}</h4></Card.Title>
+                            <Card.Text className='body-text'>
                                 {reviews[5]?.body}
                             </Card.Text>
                             <small className='small'>Rating: {reviews[0]?.stars} Stars</small>
@@ -45,9 +45,9 @@ const Reviews = () => {
                     </Card>
                     <Card className='mx-1 border-0'>
                         <Card.Img variant="top" src={reviews[1]?.picture} />
-                        <Card.Body className='body'>
-                            <Card.Title>{reviews[1]?.name}</Card.Title>
-                            <Card.Text>
+                        <Card.Body className='body card-body'>
+                            <Card.Title><h4>{reviews[1]?.name}</h4></Card.Title>
+                            <Card.Text className='body-text'>
                                 {reviews[1]?.body}
                             </Card.Text>
                             <small className='small'>Rating: {reviews[1]?.stars} Stars</small>
@@ -56,9 +56,9 @@ const Reviews = () => {
                     </Card>
                     <Card className='mx-1 border-0'>
                         <Card.Img variant="top" src={reviews[4]?.picture} />
-                        <Card.Body className='body'>
-                            <Card.Title>{reviews[4]?.name}</Card.Title>
-                            <Card.Text>
+                        <Card.Body className='body card-body'>
+                            <Card.Title><h4>{reviews[4]?.name}</h4></Card.Title>
+                            <Card.Text className='body-text'>
                                 {reviews[2]?.body}
                             </Card.Text>
                             <small className='small'>Rating: {reviews[2]?.stars} Stars</small>

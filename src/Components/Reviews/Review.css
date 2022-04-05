@@ -16,3 +16,11 @@
     color: aliceblue;
     background-color: blueviolet
 }
+
+.card-body {
+    background-color: cornflowerblue
+}
+
+.body-text {
+    color: white;
+}
