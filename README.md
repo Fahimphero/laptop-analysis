@@ -1,7 +1,13 @@
-# Getting Started with Create React App
+# Laptop Analysis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My Live Website Link [Laptop Analysis](https://popular-laptop-analysis.netlify.app/).
 
+## Available Features
+* React Rechart is used to add charts
+* React Router is used to creates routes
+* React Bootstrap is used for styling purpose
+* Data is loaded from reviews.json file
+  
 ## Available Scripts
 
 In the project directory, you can run:

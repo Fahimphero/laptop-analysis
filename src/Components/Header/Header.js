@@ -15,7 +15,7 @@ const Header = () => {
                 <Container fluid>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
-                        <Navbar.Brand href="/" ><span className='brandLink'>Gold Tech BD</span> </Navbar.Brand>
+                        <Navbar.Brand href="/" ><span className='brandLink'>Laptop Analysis</span> </Navbar.Brand>
                         <Nav
                             className="ms-auto my-2 my-lg-0 navLink"
                             style={{ maxHeight: '100px' }}
