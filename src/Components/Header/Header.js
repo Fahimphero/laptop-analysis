@@ -15,7 +15,7 @@ const Header = () => {
                 <Container fluid>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
-                        <Navbar.Brand href="/" ><span className='brandLink'>Laptop Analysis</span> </Navbar.Brand>
+                        <Navbar.Brand href="/" ><span className='brandLink'>Laptop </span>Analysis </Navbar.Brand>
                         <Nav
                             className="ms-auto my-2 my-lg-0 navLink"
                             style={{ maxHeight: '100px' }}
@@ -25,14 +25,16 @@ const Header = () => {
                             <Link className='navLink' to='/reviews'>Reviews</Link>
                             <Link className='navLink' to='/dashboard'>Dashboard</Link>
                             <Link className='navLink' to='/blogs'>Blogs</Link>
-                            <Link className='navLink' to='/about'>About</Link>
+
                             <hr />
 
                         </Nav>
 
                     </Navbar.Collapse>
                 </Container>
+
             </Navbar>
+
         </div >
     );
 };

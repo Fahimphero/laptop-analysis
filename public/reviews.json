@@ -12,7 +12,7 @@
         "id": 2,
         "picture": "https://img.freepik.com/free-photo/portrait-happy-excited-man-holding-laptop-computer_171337-12121.jpg?t=st=1649084694~exp=1649085294~hmac=32504cf75778c3e9b87daf6cc0a0dc29465a0a25fe72a92e632845e000560d7e&w=1060",
         "name": "Nell Tucker",
-        "stars": 4.5,
+        "stars": 5,
         "body": "Bought many computers over the years, but Dell stands out for quality and longevity. Soon I will buy their Poweredge server, but will wait for the Black Monday discount. All other computers I bought had problems, but Dell is a solid bet."
     },
     {
@@ -28,7 +28,7 @@
         "id": 4,
         "picture": "https://img.freepik.com/free-photo/young-smiling-african-man-standing-using-laptop_171337-12867.jpg?w=1060",
         "name": "Horne Carey",
-        "stars": 4.5,
+        "stars": 5,
         "body": "Bought many computers over the years, but Dell stands out for quality and longevity. Soon I will buy their Poweredge server, but will wait for the Black Monday discount. All other computers I bought had problems, but Dell is a solid bet."
     },
     {
@@ -44,7 +44,7 @@
         "id": 6,
         "picture": "https://img.freepik.com/free-photo/young-happy-smiling-woman-casual-clothes-holding-laptop-sending-email-her-best-friend-isolated-gray-background_231208-7443.jpg?t=st=1649084694~exp=1649085294~hmac=6f6e335475f8161fe24b2e5a2413f426b5a17a935e60ce6689f361c43ac9476b&w=1060",
         "name": "Kim Kardeshian",
-        "stars": 4,
+        "stars": 5,
         "body": "Bought many computers over the years, but Dell stands out for quality and longevity. Soon I will buy their Poweredge server, but will wait for the Black Monday discount. All other computers I bought had problems, but Dell is a solid bet."
     },
     {

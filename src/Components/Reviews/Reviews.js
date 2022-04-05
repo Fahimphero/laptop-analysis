@@ -1,8 +1,12 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faStarHalf } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react';
 import { Button, Card, CardGroup } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import Review from '../Review/Review';
 import useReview from '../useReview/useReview';
+
 import './Review.css'
 
 const Reviews = () => {
@@ -29,9 +33,8 @@ const Reviews = () => {
 
             </div>
             <div className='mt-5'>
-                <h2>Customer Reviews: 3</h2>
-
-                <CardGroup className='mx-4'>
+                <h2><span className='name'> Laptop</span> <u>Reviews</u></h2>
+                <CardGroup className='mx-4 mt-4'>
                     <Card className='mx-1 border-0'>
                         <Card.Img variant="top" src={reviews[5]?.picture} />
                         <Card.Body className='body card-body'>
@@ -39,7 +42,8 @@ const Reviews = () => {
                             <Card.Text className='body-text'>
                                 {reviews[5]?.body}
                             </Card.Text>
-                            <small className='small'>Rating: {reviews[0]?.stars} Stars</small>
+                            <small className='small d-flex align-items-center pb-2'>Rating: <span className='px-3 fontAwesome'> <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
+                                {reviews[0]?.stars} Star</small>
                         </Card.Body>
 
                     </Card>
@@ -50,7 +54,8 @@ const Reviews = () => {
                             <Card.Text className='body-text'>
                                 {reviews[1]?.body}
                             </Card.Text>
-                            <small className='small'>Rating: {reviews[1]?.stars} Stars</small>
+                            <small className='small d-flex align-items-center pb-2 '>Rating: <span className='px-3 fontAwesome'> <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon className='half' icon={faStarHalf} /></span>
+                                {reviews[1]?.stars} Star</small>
                         </Card.Body>
 
                     </Card>
@@ -59,9 +64,10 @@ const Reviews = () => {
                         <Card.Body className='body card-body'>
                             <Card.Title><h4>{reviews[4]?.name}</h4></Card.Title>
                             <Card.Text className='body-text'>
-                                {reviews[2]?.body}
+                                {reviews[0]?.body}
                             </Card.Text>
-                            <small className='small'>Rating: {reviews[2]?.stars} Stars</small>
+                            <small className='small d-flex align-items-center pb-2'>Rating: <span className='px-3 fontAwesome'> <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
+                                {reviews[2]?.stars} Star</small>
                         </Card.Body>
 
                     </Card>

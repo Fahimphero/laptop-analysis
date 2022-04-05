@@ -24,3 +24,13 @@
 .body-text {
     color: white;
 }
+
+.name {
+    font-size: larger;
+    color: dodgerblue;
+    font-weight: 700;
+}
+
+.fontAwesome {
+    color: orange;
+}
